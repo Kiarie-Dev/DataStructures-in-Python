@@ -9,8 +9,8 @@ def merge_sort2(list):
     return merge(left, right)
 def split(list):
     mid = len(list) // 2
-    left = list[:mid]
-    right = list[mid:]
+    left = list[:mid] # To solve... two variables
+    right = list[mid:] # To solve
 
     return left, right
 def merge(left, right):
